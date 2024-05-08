@@ -10,17 +10,27 @@ The way to learn all the knowledge will be through following the documentation o
 ### Milestones
 
 1. Getting started. Create the skeleton of nextjs. Get familiar with the folder structure. Run the development server. Usage of CSS, fonts and images.
+Src folder. App router. Tailwindcss. 
 
-2. Layouts and pages. Creation of new pages and layouts. Learn how the navigation works.
+3. Layouts and pages. Creation of new pages and layouts. Learn how the navigation works.
+Automatic navigation between pages. Folder structure matters.
 
-3. Database. Setting up a database. Fetching and mutating data. Learn how to create a CRUD.
+4. Database. Setting up a database. Fetching and mutating data. Learn how to create a CRUD.
+Vercel configuration. Manual queries. API route structure. Use Prisma as ORM.
 
-4. Static and dynamic rendering. Learn the usage of optimizing the application using cache.
+5. Static and dynamic rendering. Learn the usage of optimizing the application using cache.
+Static rendering for landing pages. Dynamic rendering for real time data or user specific.
+By default nextjs tries to catch static content. Use `noStore` to define dynamic content.
+This part only explains how to use cache (static and dynamic) problem: Blocks entire page waiting for requests.
 
-5. Streaming. Learn what is streaming. Loading skeletons.
+6. Streaming. Learn what is streaming. Loading skeletons.
+Loading.tsx and Suspense. Whole page skeleton vs components skeletons.
 
-6. Search and pagination. Typical usage of tables with information.
+7. Search and pagination. Typical usage of tables with information.
+Use query params.
 
-7. Handling errors. try/catch methods that can fail.
+8. Handling errors. try/catch methods that can fail.
+Try catch way and error404 pages.
 
-8. Authentication. Add a login system with authorization roles.
+9. Authentication. Add a login system with authorization roles.
+Use next-auth package.
